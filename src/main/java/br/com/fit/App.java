@@ -6,6 +6,7 @@ import br.com.fit.basics.Types;
 import br.com.fit.basics.Variables;
 import br.com.fit.collections.Collections;
 import br.com.fit.collections.Functions;
+import br.com.fit.collections.Streams;
 
 /**
  * Hello world!
@@ -23,5 +24,6 @@ public class App
         
         Collections.doTry();
         Functions.doTry();
+        Streams.doTry();
     }
 }
