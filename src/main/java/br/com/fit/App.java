@@ -4,6 +4,8 @@ import br.com.fit.basics.FlowControl;
 import br.com.fit.basics.Operators;
 import br.com.fit.basics.Types;
 import br.com.fit.basics.Variables;
+import br.com.fit.collections.Collections;
+import br.com.fit.collections.Functions;
 
 /**
  * Hello world!
@@ -18,5 +20,8 @@ public class App
         Types.doTry();
         Operators.doTry();
         FlowControl.doTry(2);
+        
+        Collections.doTry();
+        Functions.doTry();
     }
 }
