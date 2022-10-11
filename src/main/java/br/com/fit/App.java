@@ -1,5 +1,8 @@
 package br.com.fit;
 
+import br.com.fit.basics.FlowControl;
+import br.com.fit.basics.Operators;
+import br.com.fit.basics.Types;
 import br.com.fit.basics.Variables;
 
 /**
@@ -12,5 +15,8 @@ public class App
     {
         System.out.println( "Hello World!" );
         Variables.doTry();
+        Types.doTry();
+        Operators.doTry();
+        FlowControl.doTry(2);
     }
 }
