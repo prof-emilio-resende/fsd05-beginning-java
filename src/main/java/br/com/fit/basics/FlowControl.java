@@ -31,6 +31,20 @@ public class FlowControl {
         for (int i = 0; i < texto.length(); i++) {
             System.out.println(texto.charAt(i));
         }
+
+        int numWeekdays = switch ("monday") {
+            case MONDAY -> 1;
+            case TUESDAY -> 2;
+            case WEDNESDAY -> 3;
+            default -> 0;
+        };
+        System.out.println(numWeekdays);
+
+        int knownUnknownWeekdays = switch ("monday") {
+            case MONDAY, TUESDAY, WEDNESDAY -> 1;
+            default -> 0;
+        };
+        System.out.println(knownUnknownWeekdays);
     }
 
 }

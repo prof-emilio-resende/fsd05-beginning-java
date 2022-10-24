@@ -26,6 +26,15 @@ public class Streams {
             })
             .collect(Collectors.toList())
             .forEach(System.out::println);
+
+        List.of("One", "TWO", "Three")
+            .parallelStream()
+            .map(x -> {
+                System.out.println("processando com tipo de dados diferente...");
+                return x.length();
+            })
+            .collect(Collectors.toList())
+            .forEach(System.out::println);
     }
 
 }
