@@ -6,6 +6,8 @@ public class Types {
         char a = 'a';
         Integer i = 10;
         int j = 10;
+
+        int novoi = i;
     }
     
 }

@@ -2,6 +2,10 @@ package br.com.fit.basics;
 
 public class FlowControl {
 
+    public static final String MONDAY = "monday";
+    public static final String TUESDAY = "tuesday";
+    public static final String WEDNESDAY = "wednesday";
+
     public static void doTry(int numero) {
         boolean isEven = ((numero % 2) == 0);
         String texto = "";

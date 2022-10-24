@@ -4,8 +4,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.swing.event.SwingPropertyChangeSupport;
-
 public class Collections {
 
     public static void doTry() {
